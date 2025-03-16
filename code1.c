@@ -45,5 +45,6 @@ int main() {
     write_result("output.txt", numbers[0]);  // Write sum to output file
 
     // Bug 5: Memory leak - 'numbers' is never freed
+    printf("hello")
     return 0;
 }
