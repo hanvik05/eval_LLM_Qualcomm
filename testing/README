@@ -1,0 +1,16 @@
+# Repo 1: Python Import Bug
+Run with:
+```bash
+python main.py
+
+
+**Expected behavior:**  
+- Code-Doctor sees bug in `utils.py`.
+- Notices that `main.py` imports `utils`.
+- Fetches **both files** before sending to AI.
+
+---
+
+## **Repo 2 — Stack Trace File Detection**
+**Purpose:** Tests whether Code-Doctor catches files mentioned in **error messages**.
+
